@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="pl-PL">
+   <head>
+      <meta charset="UTF-8">
+      <meta name="viewport"
+         content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+      <meta http-equiv="X-UA-Compatible" content="ie=edge">
+      <base href="/">
+      <link rel="stylesheet" href="/public/css/reset.css">
+      <link rel="stylesheet" href="/public/css/style.css">
+      <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:300,400,700,800&display=swap&subset=latin-ext" rel="stylesheet">
+      <title>Marcin Mańkowski Landing Page Project</title>
+   </head>
+   <body>
+      <header>
+         <nav>
+            <span class="span-logo">BestShop</span>
+            <ul class="header-list">
+               <li><a href="#whyus" class="header__link">WHY US</a></li>
+               <li><a href="#benefits" class="header__link">BENEFITS</a></li>
+               <li><a href="#pricing" class="header__link">PRICES</a></li>
+               <li><a href="#contact" class="header__link">CONTACT</a></li>
+            </ul>
+         </nav>
+      </header>
+      <section class="banner">
+         <h1>
+            Sell More!
+         </h1>
+         <p class="banner-paragraph">
+            Open shop on our platform and increase your sales
+         </p>
+         <a href="#" class="btn-banner">Open your shop</a>
+         <div class="ending-banner-div">
+         </div>
+      </section>
+      <section class="under-banner">
+         <h2 id="whyus">
+            The most popular sales platform in country
+         </h2>
+         <div class="icon-section">
+            <div class="icon-and-info">
+               <div class="icon-bgc icon-bgc--colorRed">
+                  <img src="/public/assets/Person.svg" alt="Person">
+               </div>
+               <p class="icon-section-number">100000+</p>
+               <p class="icon-section-description">daily entries</p>
+            </div>
+            <div class="icon-and-info">
+               <div class="icon-bgc icon-bgc--colorBlue">
+                  <img class="img-eye" src="/public/assets/Eye.svg" alt="Eye">
+               </div>
+               <p class="icon-section-number">2000000+</p>
+               <p class="icon-section-description">seen products<br>every day</p>
+            </div>
+            <div class="icon-and-info">
+               <div class="icon-bgc icon-bgc--colorGreen">
+                  <img class="img-catalog" src="/public/assets/Catalog.svg" alt="Catalog">
+               </div>
+               <p class="icon-section-number">10000+</p>
+               <p class="icon-section-description">added posts<br>daily</p>
+            </div>
+         </div>
+         </div>
+      </section>
+      <section class="benefit">
+         <div class="benefit-box">
+            <div class="first-boxie-row1">
+               <h3 id="benefits">Be always first</h3>
+               <p class="p-first-boxie-row1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
+                  labore et dolore magna aliqua. Ut enim ad minim veniam.
+               </p>
+            </div>
+            <div class="second-boxie-row1">
+               <div class="background-under-macbook"></div>
+               <img class="box-macbook-img" src="/public/assets/Macbook.png">
+            </div>
+         </div>
+      </section>
+      <section class="prices-conteiner">
+         <h4 id="pricing">Pricing</h4>
+         <div class="all-prices-box">
+            <div class="price-box left-price-box">
+               <p class="price-box-p1">Professional</p>
+               <p class="price-box-p2">$25</p>
+               <p class="price-box-p3">Limited offer</p>
+               <ul>
+                  <li class="price-box-li">500 MB HDD</li>
+                  <li class="price-box-li">2 Subdomains</li>
+                  <li class="price-box-li">5 E-mails</li>
+                  <li class="price-box-li red-cross-li">One year license</li>
+                  <li class="price-box-li red-cross-li">Full support</li>
+               </ul>
+               <a class="price-button left-button" href="#">Begin</a>
+            </div>
+            <div class="price-box main-price-box">
+               <p class="price-box-p1">Professional</p>
+               <p class="price-box-p2">$25</p>
+               <p class="price-box-p3">Limited offer</p>
+               <ul>
+                  <li class="price-box-li">500 MB HDD</li>
+                  <li class="price-box-li">2 Subdomains</li>
+                  <li class="price-box-li">5 E-mails</li>
+                  <li class="price-box-li">One year license</li>
+                  <li class="price-box-li red-cross-li">Full support</li>
+               </ul>
+               <a class="price-button main-button" href="#">Begin</a>
+            </div>
+            <div class="price-box right-price-box">
+               <p class="price-box-p1">Professional</p>
+               <p class="price-box-p2">$25</p>
+               <p class="price-box-p3">Limited offer</p>
+               <ul>
+                  <li class="price-box-li">500 MB HDD</li>
+                  <li class="price-box-li">2 Subdomains</li>
+                  <li class="price-box-li">5 E-mails</li>
+                  <li class="price-box-li">One year license</li>
+                  <li class="price-box-li">Full support</li>
+               </ul>
+               <a class="price-button right-button" href="#">Begin</a>
+            </div>
+         </div>
+         <section class="form-and-quest-container">
+            <div class="form-and-quest-column2">
+               <form id="contact-form" method=”POST” action="send" enctype = "multipart/form-data">
+                  <label for="name" class="form-label">NAME</label>
+                  <input type="text" id="name" name="name" required>
+                  <label for="email" class="form-label">EMAIL</label>
+                  <input type="email" id="email" name="email" required>
+                  <label class="last-label">
+                     <input id="checkbox" type="checkbox">
+                     <span class="checkmark"></span>
+                     <p class="p-label">I hereby give consent for my personal data included in my application to be processed for the purposes of the recruitment process under the European Parliament’s and Council of the European Union Regulation on the Protection of Natural Persons as of 27 April 2016, with regard to the processing of personal data and on the free movement of such data, and repealing Directive 95/46/EC (Data Protection Directive)</p>
+                  </label>
+                  <button type="submit" class="form-btn" value="submit">
+                  Send
+                  </button>
+               </form>
+            </div>
+            <div class="form-and-quest-column1">
+               <p class="form-and-quest-title" id="contact">Any questions?</p>
+               <p class="p-form-and-quest">Leave your email address or call us!</p>
+               <div>
+                  <img src="/public/assets/Mail%20Icon.svg" class="quest-img"><span class="form-and-quest-span">info@bestshop.xyz</span><img src="/public/assets/Phone%20Icon.svg" class="quest-img"><span class="form-and-quest-span">123 456 789</span>
+               </div>
+         </section>
+         </div>
+         <footer>
+            <div class="footer-container">
+               <div class="footer-box">
+                  <div class="footer-left">
+                     <span class="span-logo">BestShop</span>
+                     <p class="p-footer">&copy 2021 BestShop LTD, All Rights Reserved</p>
+                  </div>
+                  <div class="social-container">
+                     <a href="http://twitter.com/"><img src="/public/assets/Twitter.svg" /> </a>
+                     <a href="http://facebook.com/"><img src="/public/assets/Facebook.svg" /> </a>
+                  </div>
+               </div>
+            </div>
+         </footer>
+      </section>
+      <script src="/public/index.js"></script>
+   </body>
+</html>

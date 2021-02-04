@@ -1,0 +1,25 @@
+{
+  "name": "nodemailer-tutorial",
+  "version": "1.0.0",
+  "description": "Node Mailer tutorial in vanilla JS",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Victoria Lo",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.1.0",
+    "multiparty": "^4.2.2",
+    "nodemailer": "^6.4.11",
+    "nodemon": "^2.0.4"
+  },
+  "engines": {
+    "node": "12.14.1"
+  }
+}
