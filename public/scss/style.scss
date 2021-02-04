@@ -1,3 +1,6 @@
+@import "./settings/colors";
+@import "./reset";
+
 * {
   box-sizing: border-box;
 }
@@ -11,7 +14,7 @@ body {
       display: flex;
       justify-content: space-between;
       .span-logo {
-        color: #08a6e4;
+        color: $main-color;
         font-size: 2rem;
         font-family: 'Raleway', sans-serif;
         line-height: 2.375rem;
@@ -30,7 +33,7 @@ body {
         list-style: none;
         .header__link {
           text-decoration: none;
-          color: #a5a5a5;
+          color: $third-color;
           font-size: 0.6875rem;
           font-family: 'Open Sans', sans-serif;
           line-height: 15px;
@@ -49,7 +52,7 @@ body {
           }
         }
         .header__link:hover {
-          border-bottom: 4px solid #08a6e4;
+          border-bottom: 4px solid $main-color;
           color: black;
         }
       }
@@ -78,7 +81,7 @@ body {
   .btn-banner {
     box-shadow: 5px 10px 14px #07ace629;
     border-radius: 40px;
-    background-color: #08a6e4;
+    background-color: $main-color;
     padding: 22px 12%;
     text-decoration: none;
     color: white;
@@ -121,11 +124,11 @@ body {
         position: relative;
       }
       .icon-bgc--colorRed {
-        background-color: #fb3b64;
+        background-color: $secondary-color;
       }
 
       .icon-bgc--colorBlue {
-        background-color: #08a6e4;
+        background-color: $main-color;
       }
 
       .icon-bgc img {
@@ -148,7 +151,7 @@ body {
         font-size: 17px;
         line-height: 20px;
         letter-spacing: 0;
-        color: #a5a5a5;
+        color: $third-color;
       }
 
       .icon-section-number {
@@ -203,7 +206,7 @@ body {
       }
       .p-first-boxie-row1::after {
         content: '';
-        border-bottom: 4px solid #fb3b64;
+        border-bottom: 4px solid $secondary-color;
         display: block;
         position: absolute;
         width: 300px;
@@ -223,7 +226,7 @@ body {
         position: absolute;
         height: 200px;
         width: 200px;
-        background-color: #fb3b64;
+        background-color: $secondary-color;
         border-radius: 40px;
         transform: rotate(-45deg);
         right: 165px;
@@ -353,7 +356,7 @@ body {
       }
     }
     .left-price-box {
-      border: 1px solid #fb3b64;
+      border: 1px solid $secondary-color;
     }
     .right-price-box {
       border: 1px solid #55dfb4;
@@ -396,7 +399,7 @@ body {
       }
       .form-and-quest-span {
         font-family: 'Open Sans', sans-serif;
-        color: #a5a5a5;
+        color: $third-color;
         font-weight: 600;
       }
     }
@@ -408,7 +411,7 @@ body {
     form {
       .form-label {
         font-family: 'Open Sans', sans-serif;
-        color: #08a6e4;
+        color: $main-color;
         font-weight: 700;
         font-size: 0.6875rem;
         line-height: 0.9375rem;
@@ -418,7 +421,7 @@ body {
       #name {
         width: 100%;
         border: none;
-        border-bottom: 2px solid #08a6e4;
+        border-bottom: 2px solid $main-color;
         margin-bottom: 43px;
         outline: none;
         height: 40px;
@@ -427,7 +430,7 @@ body {
       #email {
         width: 100%;
         border: none;
-        border-bottom: 2px solid #08a6e4;
+        border-bottom: 2px solid $main-color;
         height: 40px;
         outline: none;
       }
@@ -473,7 +476,7 @@ body {
     }
     .form-btn {
       padding: 20px 95px;
-      background-color: #08a6e4;
+      background-color: $main-color;
       box-shadow: 5px 10px 14px #07ace629;
       border-radius: 35px;
       align-self: flex-end;
@@ -494,7 +497,7 @@ body {
       outline: none;
     }
     .form-btn:hover {
-      background-color: lighten(#08a6e4, 10%);
+      background-color: lighten($main-color, 10%);
       cursor: pointer;
       cursor: hand;
     }
@@ -522,11 +525,11 @@ footer {
         width: 50%;
         padding: 0.25rem;
         .span-logo {
-          color: #08a6e4;
+          color: $main-color;
         }
         .p-footer {
           font-family: 'Open Sans', sans-serif;
-          color: #a5a5a5;
+          color: $third-color;
           font-size: 0.6875rem;
           line-height: 0.9375rem;
           letter-spacing: 0px;
