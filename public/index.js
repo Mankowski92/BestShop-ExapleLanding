@@ -9,7 +9,7 @@ const formEvent = form.addEventListener("submit", (event) => {
 const sendMail = (mail) => {
   var checkbox = document.getElementById("checkbox");
   if (checkbox.checked) {
-    fetch("https://aqueous-caverns-80429.herokuapp.com/send", {
+    fetch("https://mankowski92-best-shop.herokuapp.com/send", {
       method: "post",
       body: mail,
     }).then((response) => {
